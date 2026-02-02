@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Imágenes</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section id="main-section">
+        <section id="horizontal-section">
+            <button id="button-west" class="cardinal-button" type="button">Oeste</button>
+
+            <section id="vertical-section">
+                <code id="location-label"> <!-- Sin etiqueta por defecto, se establece al cargar el script. --> </code>
+
+                <button id="button-north" class="cardinal-button" type="button">Norte</button>
+                
+                <img id="image-viewport" src="sample-image.png" alt="Imagen Central">
+                
+                <button id="button-south" class="cardinal-button" type="button">Sur</button>
+            </section>
+
+            <button id="button-east" class="cardinal-button" type="button">Este</button>
+        </section>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
